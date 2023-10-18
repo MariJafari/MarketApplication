@@ -1,0 +1,25 @@
+{
+    "product":
+    [
+        {
+            "Name":"Ohio Womens Snow Boots" ,
+            "Description":"The Ohio Snow Boots are warm and snowproof. The IsoTherm lining has been tested to keep your feet warm in temperatures as low as -20°C. The durable womens boot is a stylish and practical addition to your winter wardrobe." ,
+            "Price": "99.99" ,
+            "Quantity": "1" ,
+            "Category": "Women"
+        },
+        {   "Name":"Essentials Mens Lightweight Padded Jacket" ,
+            "Description":"Our Essentials Padded Jacket is a must have for your next outdoor adventure! Made from 100% nylon, this jacket boasts a 160 GSM padded body that provides exceptional warmth without adding bulk. Its water-resistant outer shell protects you from the elements while the full zip close and high collar will leave you feeling snug and cosy! Perfect for hiking, camping or any outdoor activity. Our jacket is a versatile addition to your wardrobe. Get ready to brave the elements in style with our durable and stylish padded jacket." ,
+            "Price": "64.99" ,
+            "Quantity": "1" ,
+            "Category": "Men"
+        },
+        {
+            "Name":"Galactic Extreme Kids Waterproof Ski Jacket" ,
+            "Description":"With a stand-out design and all the technical features, our Galactic Kids Ski Jacket is perfect for your next ski trip. A waterproof outer with taped seams, a unique print, soft fleecy lining, a detachable hood and snowskirt. Featuring lots of zipped pockets, including a goggle and ski pass pocket." ,
+            "Price": "149.99" ,
+            "Quantity": "1" ,
+            "Category": "Teens"
+        }
+    ]    
+}

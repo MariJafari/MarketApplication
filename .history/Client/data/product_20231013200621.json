@@ -1,0 +1,25 @@
+{
+    "product":
+    [
+        {
+            "Name":"100% WOOL ASYMMETRICAL LAPEL COAT" ,
+            "Description":"Coat made of 100% wool. Asymmetrical lapel and long sleeves. Front welt pockets. Front button closure." ,
+            "Price": "219.00" ,
+            "Quantity": "1" ,
+            "Category": "Women"
+        },
+        {   "Name":"Hooded Quilted Puffer Jacket for Men" ,
+            "Description":"Built-in hood, with bungee drawcord. Long sleeves.Full-length zipper." ,
+            "Price": "58.00" ,
+            "Quantity": "1" ,
+            "Category": "Men"
+        },
+        {
+            "Name":"Sherpa-Lined Non-Stretch Jean Jacket for Girls" ,
+            "Description":"Contrasting sherpa spread collar. Long sleeves, with buttoned cuffs. Snap-button closure in sizes XS-M; regular button" ,
+            "Price": "54.99" ,
+            "Quantity": "1" ,
+            "Category": "Teens"
+        }
+    ]    
+}
