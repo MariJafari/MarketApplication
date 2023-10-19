@@ -79,6 +79,22 @@ function ProcessDeletePage(req, res, next) {
 }
 exports.ProcessDeletePage = ProcessDeletePage;
 function ProcessFindProductsByKeyword(req, res, next) {
+    try {
+        const keyword = encodeURIComponent(req.params.keyword);
+        console.log('Keyword:', keyword);
+        product_1.default.find({ Name: ({ $regex: new RegExp(keyword, 'i') }) }, function (err, matchingProducts) {
+            if (err) {
+                console.error(err);
+                res.status(500).send({ error: 'Internal Server Error' });
+                return;
+            }
+            res.send({ matchingProducts });
+        });
+    }
+    catch (error) {
+        console.error('Error in ProcessFindProductsByKeyword:', error);
+        res.status(500).send({ error: 'Internal Server Error' });
+    }
 }
 exports.ProcessFindProductsByKeyword = ProcessFindProductsByKeyword;
 //# sourceMappingURL=product-list.js.map

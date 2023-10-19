@@ -120,30 +120,9 @@ export function ProcessDeletePage(req: express.Request, res: express.Response, n
 
 }
 
-export   function ProcessFindProductsByKeyword(req: express.Request, res: express.Response, next: express.NextFunction) :void
+export function ProcessFindProductsByKeyword(req: express.Request, res: express.Response, next: express.NextFunction) :void
 {
-  try {
-    // Extracting the keyword from the request
-    const keyword = encodeURIComponent(req.params.keyword);
 
-    console.log('Keyword:', keyword);
-
-        // Find products that contain the keyword in their name (case-insensitive)
-        Product.find({ Name: ({ $regex: new RegExp(keyword, 'i') }) }, function (err: any, matchingProducts: any[]) {
-            if (err) {
-                console.error(err);
-                res.status(500).send({ error: 'Internal Server Error' });
-                return;
-            }
-
-            // Sending the matching products as the response
-            res.send({ matchingProducts });
-        });
-    } catch (error) {
-        // Handle errors appropriately
-        console.error('Error in ProcessFindProductsByKeyword:', error);
-        res.status(500).send({ error: 'Internal Server Error' });
-    }
-
+  
 
 }

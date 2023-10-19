@@ -5,4 +5,4 @@ exports.LocalURI = "mongodb://127.0.0.1/Marketplace";
 exports.RemoteURI = "";
 exports.HostName = "MongoDB Atlas";
 exports.Secret = "someSecret";
-//#sourceMappingURL=db.js.map
+//# sourceMappingURL=db.js.map
